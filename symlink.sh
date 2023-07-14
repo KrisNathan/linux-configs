@@ -1,0 +1,12 @@
+# trollge...
+DIR="$( cd "$( dirname "$0" )" && pwd )"
+
+echo $DIR
+
+ln -s $DIR/dotconfig/alacritty ~/.config/alacritty
+ln -s $DIR/dotconfig/i3 ~/.config/i3
+ln -s $DIR/dotconfig/i3status ~/.config/i3status
+ln -s $DIR/dotconfig/sway ~/.config/sway
+
+ln -s $DIR/home/.zshrc ~/.zshrc
+ln -s $DIR/home/.profile ~/.profile
