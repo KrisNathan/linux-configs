@@ -11,3 +11,4 @@ ln -s $DIR/dotconfig/sway ~/.config/sway
 
 ln -s $DIR/home/.zshrc ~/.zshrc
 ln -s $DIR/home/.profile ~/.profile
+ln -s $DIR/home/.gitconfig ~/.gitconfig
