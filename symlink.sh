@@ -7,7 +7,9 @@ ln -s $DIR/dotconfig/alacritty ~/.config/alacritty
 ln -s $DIR/dotconfig/i3 ~/.config/i3
 ln -s $DIR/dotconfig/i3status ~/.config/i3status
 ln -s $DIR/dotconfig/sway ~/.config/sway
+
 # idk about helix
+ln -s $DIR/dotconfig/helix ~/.config/helix
 
 ln -s $DIR/home/.zshrc ~/.zshrc
 ln -s $DIR/home/.profile ~/.profile
