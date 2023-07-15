@@ -43,9 +43,13 @@ source "$HOME/.cargo/env"
 # dotnet
 export PATH="$PATH:/home/kris/.dotnet/tools"
 
+# python and stuff
+export PATH="$PATH:/home/kris/.local/bin"
+
 # bat replacement for cat
 alias cat="bat"
 alias ls="exa"
 alias box="distrobox-enter --name fedora-38 -- zsh -l"
+alias code="code --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto"
 
 eval "$(starship init zsh)"
