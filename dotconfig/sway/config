@@ -14,8 +14,8 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term foot
-# set $term alacritty
+#set $term foot
+set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -26,7 +26,7 @@ set $menu wofi --show drun --allow-images
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg ~/Pictures/tabitabi.jpg fill
 #
 # Example configuration:
 #
@@ -237,6 +237,7 @@ input "type:touchpad" {
     dwt enabled
     tap enabled
     middle_emulation enabled
+    natural_scroll enabled
 }
 
 # exec mako
@@ -253,9 +254,6 @@ bindsym --locked XF86MonBrightnessDown exec light -T 0.72
 
 # screenshot copy to clipboard
 bindsym $mod+p exec grim -g "$(slurp -d)" - | wl-copy
-
-# desktop background
-output "*" bg ~/Sync/Default/wallpaper/cliff-rocks-digital-art-4k-c2-1920x1080.jpg fill
 
 # xdg-desktop-portal-wlr
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway

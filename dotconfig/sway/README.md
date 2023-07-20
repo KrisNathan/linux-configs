@@ -9,6 +9,8 @@
 3. `wofi`: dmenu (application launcher)
 4. `waybar`: wayland bar
 5. `swaybg`: desktop background
+6. `light`: backlight brightness
+7. `nm-applet`: network controls
 
 Screenshot dependencies
 
