@@ -1,0 +1,17 @@
+[[language]]
+name = "astro"
+scope = "source.astro"
+injection-regex = "astro"
+file-types = ["astro"]
+roots = ["package.json", "astro.config.mjs"]
+language-server = { command = "astro-ls", args = [ "--stdio" ]}
+config = { typescript = { tsdk = "~/.nvm/versions/node/v20.6.1/lib/node_modules/typescript/lib" }, environment = "node" }
+auto-format = true
+
+# [language-server.godot]
+# command = "nc" 
+# args = [ "127.0.0.1", "6005"]
+
+# [[language]]
+# name = "gdscript"
+# language-server = ["godot"] 

@@ -10,7 +10,7 @@ ln -s $DIR/dotconfig/sway ~/.config/sway
 
 # idk about helix
 ln -s $DIR/dotconfig/helix/config.toml ~/.config/helix/config.toml
-ln -s $DIR/dotconfig/helix/language.toml ~/.config/helix/language.toml
+ln -s $DIR/dotconfig/helix/languages.toml ~/.config/helix/languages.toml
 
 ln -s $DIR/home/.zshrc ~/.zshrc
 ln -s $DIR/home/.profile ~/.profile
