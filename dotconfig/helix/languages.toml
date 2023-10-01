@@ -5,8 +5,7 @@ injection-regex = "astro"
 file-types = ["astro"]
 roots = ["package.json", "astro.config.mjs"]
 language-server = { command = "astro-ls", args = [ "--stdio" ]}
-config = { typescript = { tsdk = "~/.nvm/versions/node/v20.6.1/lib/node_modules/typescript/lib" }, environment = "node" }
-auto-format = true
+config = { typescript = { tsdk = "/home/kris/.nvm/versions/node/v20.6.1/lib/node_modules/typescript/lib" }, environment = "node" }
 
 # [language-server.godot]
 # command = "nc" 
