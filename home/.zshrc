@@ -41,10 +41,20 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 source "$HOME/.cargo/env"
 
 # dotnet
-export PATH="$PATH:/home/kris/.dotnet/tools"
+export PATH="$PATH:$HOME/.dotnet/tools"
+export PATH="$PATH:$HOME/Portable/omnisharp-linux-x64-net6.0"
 
 # python and stuff
-export PATH="$PATH:/home/kris/.local/bin"
+export PATH="$PATH:$HOME/.local/bin"
+
+# nvm (node version manager)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# deno
+export DENO_INSTALL="/home/kris/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
 
 # bat replacement for cat
 alias cat="bat"
