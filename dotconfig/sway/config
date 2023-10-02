@@ -255,10 +255,15 @@ bindsym --locked XF86MonBrightnessDown exec light -T 0.72
 # screenshot copy to clipboard
 bindsym $mod+p exec grim -g "$(slurp -d)" - | wl-copy
 
-# xdg-desktop-portal-wlr
-exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+# dbus funny
+exec dbus-update-activation-environment --all
 
 # nm-applet
 exec_always nm-applet --indicator
 
+# gnome-keyring
+exec eval $(gnome-keyring-daemon --start)
+exec export SSH_AUTH_SOCK
+
+exec export SSH_AUTH_SOCK
 include /etc/sway/config.d/*
