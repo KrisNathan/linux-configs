@@ -26,7 +26,7 @@ set $menu wofi --show drun --allow-images
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Pictures/tabitabi.jpg fill
+output * bg ~/Pictures/anime.jpg fill
 #
 # Example configuration:
 #
