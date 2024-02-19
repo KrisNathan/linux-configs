@@ -67,3 +67,4 @@ alias box="distrobox-enter --name fedora-38 -- zsh -l"
 alias code="code --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto"
 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
