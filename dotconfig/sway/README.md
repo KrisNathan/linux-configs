@@ -10,6 +10,7 @@
 4. `waybar`: wayland bar
 5. `swaybg`: desktop background
 6. `light`: backlight brightness
+  1. may need to run: `sudo usermod -a -G video $USER`
 7. `nm-applet`: network controls
 
 Screenshot dependencies
