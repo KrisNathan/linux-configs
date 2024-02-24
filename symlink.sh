@@ -7,6 +7,7 @@ ln -s $DIR/dotconfig/alacritty ~/.config/alacritty
 ln -s $DIR/dotconfig/i3 ~/.config/i3
 ln -s $DIR/dotconfig/i3status ~/.config/i3status
 ln -s $DIR/dotconfig/sway ~/.config/sway
+ln -s $DIR/dotconfig/hypr ~/.config/hypr
 
 # idk about helix
 ln -s $DIR/dotconfig/helix/config.toml ~/.config/helix/config.toml
