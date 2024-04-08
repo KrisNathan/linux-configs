@@ -11,6 +11,7 @@ git clone https://github.com/KrisNathan/i3config.git ~/.config/i3
 3. `picom`: compositor
 4. `nitrogen`: desktop bg
 5. `dunst`: notification server
+6. `xclip`: screenshot
 
 ## Dependency Configs:
 
