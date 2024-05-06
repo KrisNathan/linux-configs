@@ -16,3 +16,4 @@ ln -s $DIR/dotconfig/helix/languages.toml ~/.config/helix/languages.toml
 ln -s $DIR/home/.zshrc ~/.zshrc
 ln -s $DIR/home/.profile ~/.profile
 ln -s $DIR/home/.gitconfig ~/.gitconfig
+ln -s $DIR/home/.tmux.conf ~/.tmux.conf
